@@ -1,0 +1,126 @@
+# Python-specific files and directories
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+env/
+.virtualenv/
+.venv/
+.env/
+env.bak/
+venv.bak/
+
+# Dependency management
+Pipfile.lock
+poetry.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data and model files (common in deep learning projects)
+data/
+*.csv
+*.tsv
+*.txt
+*.json
+*.pickle
+*.pkl
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.npy
+*.npz
+*.parquet
+*.feather
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and temporary files
+*.log
+*.log.*
+logs/
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Testing and coverage
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+pytest_cache/
+.tox/
+.nox/
+.cache/
+coverage/
+
+# Build and distribution
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Environment variables and secrets
+.env
+*.env
+*.env.*
+secrets/
+credentials/
+*.pem
+*.key
+*.crt
+*.cert
+
+# Miscellaneous
+*.swp
+*~
+*.bak
+*.orig
+*.rej
+
+# Project-specific exclusions (customize as needed)
+/notebooks/experiments/
+/results/
+/outputs/
+/models/
+/checkpoints/
+/runs/
+
+/README.md
